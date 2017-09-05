@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **marketingGroupsCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingGroupsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingGroupsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Group[] marketingGroupsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group[] marketingGroupsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Group[]**](../Model/Group.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group[]**](../Model/Group.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsIdGet($id)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingGroupsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsIdPut($id, $group)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsIdPut($id, $group)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupsApi();
 $id = 56; // int | 
-$group = new \Spinen\ConnectWise\Clients\Marketing\Model\Group(); // \Spinen\ConnectWise\Clients\Marketing\Model\Group | 
+$group = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group | 
 
 try {
     $result = $api_instance->marketingGroupsIdPut($id, $group);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **group** | [**\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\Group.md)|  |
+ **group** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsPost**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsPost($group)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group marketingGroupsPost($group)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupsApi();
-$group = new \Spinen\ConnectWise\Clients\Marketing\Model\Group(); // \Spinen\ConnectWise\Clients\Marketing\Model\Group | 
+$group = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group | 
 
 try {
     $result = $api_instance->marketingGroupsPost($group);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **group** | [**\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\Group.md)|  |
+ **group** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Group**](../Model/Group.md)
 
 ### Authorization
 

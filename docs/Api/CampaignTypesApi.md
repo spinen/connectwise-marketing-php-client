@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **marketingCampaignsTypesCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsTypesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsTypesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType[] marketingCampaignsTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType[] marketingCampaignsTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType[]**](../Model/CampaignType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType[]**](../Model/CampaignType.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesIdGet($id)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignTypesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingCampaignsTypesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesIdPut($id, $campaign_type)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesIdPut($id, $campaign_type)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignTypesApi();
 $id = 56; // int | 
-$campaign_type = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType | 
+$campaign_type = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType | 
 
 try {
     $result = $api_instance->marketingCampaignsTypesIdPut($id, $campaign_type);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **campaign_type** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType.md)|  |
+ **campaign_type** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesPost**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesPost($campaign_type)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType marketingCampaignsTypesPost($campaign_type)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignTypesApi();
-$campaign_type = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignType | 
+$campaign_type = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType | 
 
 try {
     $result = $api_instance->marketingCampaignsTypesPost($campaign_type);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_type** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType.md)|  |
+ **campaign_type** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignType**](../Model/CampaignType.md)
 
 ### Authorization
 

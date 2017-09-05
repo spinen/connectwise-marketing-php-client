@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Marketing\Model;
+namespace Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model;
 
 use \ArrayAccess;
 
@@ -60,7 +60,7 @@ class Group implements ArrayAccess
         'public_description' => 'string',
         'public_flag' => 'bool',
         'inactive_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Marketing\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -295,7 +295,7 @@ class Group implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Marketing\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Metadata
      */
     public function getInfo()
     {
@@ -304,7 +304,7 @@ class Group implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Marketing\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

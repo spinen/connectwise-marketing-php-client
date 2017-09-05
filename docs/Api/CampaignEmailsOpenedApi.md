@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **marketingCampaignsIdEmailsOpenedCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsIdEmailsOpenedCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsIdEmailsOpenedCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdEmailsOpenedEmailOpenedIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedEmailOpenedIdGet($id, $email_opened_id)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedEmailOpenedIdGet($id, $email_opened_id)
 
 
 
@@ -153,7 +153,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
 
 ### Authorization
 
@@ -167,7 +167,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdEmailsOpenedEmailOpenedIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedEmailOpenedIdPatch($id, $email_opened_id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedEmailOpenedIdPatch($id, $email_opened_id, $operations)
 
 
 
@@ -185,7 +185,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignEmailsOpenedApi();
 $id = 56; // int | 
 $email_opened_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingCampaignsIdEmailsOpenedEmailOpenedIdPatch($id, $email_opened_id, $operations);
@@ -202,11 +202,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **email_opened_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdEmailsOpenedEmailOpenedIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedEmailOpenedIdPut($id, $email_opened_id, $email_opened)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedEmailOpenedIdPut($id, $email_opened_id, $email_opened)
 
 
 
@@ -238,7 +238,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignEmailsOpenedApi();
 $id = 56; // int | 
 $email_opened_id = 56; // int | 
-$email_opened = new \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened(); // \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened | 
+$email_opened = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened | 
 
 try {
     $result = $api_instance->marketingCampaignsIdEmailsOpenedEmailOpenedIdPut($id, $email_opened_id, $email_opened);
@@ -255,11 +255,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **email_opened_id** | **int**|  |
- **email_opened** | [**\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened.md)|  |
+ **email_opened** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdEmailsOpenedGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[] marketingCampaignsIdEmailsOpenedGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[] marketingCampaignsIdEmailsOpenedGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]**](../Model/EmailOpened.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]**](../Model/EmailOpened.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdEmailsOpenedPost**
-> \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedPost($id, $email_opened)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened marketingCampaignsIdEmailsOpenedPost($id, $email_opened)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignEmailsOpenedApi();
 $id = 56; // int | 
-$email_opened = new \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened(); // \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened | 
+$email_opened = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened | 
 
 try {
     $result = $api_instance->marketingCampaignsIdEmailsOpenedPost($id, $email_opened);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **email_opened** | [**\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened.md)|  |
+ **email_opened** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened**](../Model/EmailOpened.md)
 
 ### Authorization
 

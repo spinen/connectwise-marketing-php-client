@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdAuditsAuditIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsAuditIdGet($id, $audit_id)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsAuditIdGet($id, $audit_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdAuditsAuditIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsAuditIdPatch($id, $audit_id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsAuditIdPatch($id, $audit_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignAuditsApi();
 $id = 56; // int | 
 $audit_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingCampaignsIdAuditsAuditIdPatch($id, $audit_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **audit_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdAuditsAuditIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsAuditIdPut($id, $audit_id, $campaign_audit)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsAuditIdPut($id, $audit_id, $campaign_audit)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignAuditsApi();
 $id = 56; // int | 
 $audit_id = 56; // int | 
-$campaign_audit = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit | 
+$campaign_audit = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit | 
 
 try {
     $result = $api_instance->marketingCampaignsIdAuditsAuditIdPut($id, $audit_id, $campaign_audit);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **audit_id** | **int**|  |
- **campaign_audit** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit.md)|  |
+ **campaign_audit** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdAuditsCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsIdAuditsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsIdAuditsCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdAuditsGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[] marketingCampaignsIdAuditsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[] marketingCampaignsIdAuditsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]**](../Model/CampaignAudit.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]**](../Model/CampaignAudit.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdAuditsPost**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsPost($id, $campaign_audit)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit marketingCampaignsIdAuditsPost($id, $campaign_audit)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignAuditsApi();
 $id = 56; // int | 
-$campaign_audit = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit | 
+$campaign_audit = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit | 
 
 try {
     $result = $api_instance->marketingCampaignsIdAuditsPost($id, $campaign_audit);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **campaign_audit** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit.md)|  |
+ **campaign_audit** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit**](../Model/CampaignAudit.md)
 
 ### Authorization
 

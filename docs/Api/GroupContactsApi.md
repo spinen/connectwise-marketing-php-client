@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdContactsContactIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsContactIdGet($id, $contact_id)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsContactIdGet($id, $contact_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdContactsContactIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsContactIdPatch($id, $contact_id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsContactIdPatch($id, $contact_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupContactsApi();
 $id = 56; // int | 
 $contact_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingGroupsIdContactsContactIdPatch($id, $contact_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **contact_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdContactsContactIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsContactIdPut($id, $contact_id, $marketing_contact)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsContactIdPut($id, $contact_id, $marketing_contact)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupContactsApi();
 $id = 56; // int | 
 $contact_id = 56; // int | 
-$marketing_contact = new \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact(); // \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact | 
+$marketing_contact = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact | 
 
 try {
     $result = $api_instance->marketingGroupsIdContactsContactIdPut($id, $contact_id, $marketing_contact);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **contact_id** | **int**|  |
- **marketing_contact** | [**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact.md)|  |
+ **marketing_contact** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdContactsCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingGroupsIdContactsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingGroupsIdContactsCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdContactsGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact[] marketingGroupsIdContactsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact[] marketingGroupsIdContactsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact[]**](../Model/MarketingContact.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact[]**](../Model/MarketingContact.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdContactsPost**
-> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsPost($id, $marketing_contact)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact marketingGroupsIdContactsPost($id, $marketing_contact)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupContactsApi();
 $id = 56; // int | 
-$marketing_contact = new \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact(); // \Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact | 
+$marketing_contact = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact | 
 
 try {
     $result = $api_instance->marketingGroupsIdContactsPost($id, $marketing_contact);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **marketing_contact** | [**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact.md)|  |
+ **marketing_contact** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingContact**](../Model/MarketingContact.md)
 
 ### Authorization
 

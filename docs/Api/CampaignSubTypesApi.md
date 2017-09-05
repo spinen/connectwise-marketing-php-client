@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **marketingCampaignsTypesIdSubTypesCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsTypesIdSubTypesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsTypesIdSubTypesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdSubTypesGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType[] marketingCampaignsTypesIdSubTypesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType[] marketingCampaignsTypesIdSubTypesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType[]**](../Model/CampaignSubType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType[]**](../Model/CampaignSubType.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdSubTypesPost**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesPost($id, $campaign_sub_type)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesPost($id, $campaign_sub_type)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignSubTypesApi();
 $id = 56; // int | 
-$campaign_sub_type = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType | 
+$campaign_sub_type = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType | 
 
 try {
     $result = $api_instance->marketingCampaignsTypesIdSubTypesPost($id, $campaign_sub_type);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **campaign_sub_type** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType.md)|  |
+ **campaign_sub_type** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdSubTypesSubTypeIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesSubTypeIdGet($id, $sub_type_id)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesSubTypeIdGet($id, $sub_type_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdSubTypesSubTypeIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesSubTypeIdPatch($id, $sub_type_id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesSubTypeIdPatch($id, $sub_type_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignSubTypesApi();
 $id = 56; // int | 
 $sub_type_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingCampaignsTypesIdSubTypesSubTypeIdPatch($id, $sub_type_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **sub_type_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsTypesIdSubTypesSubTypeIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesSubTypeIdPut($id, $sub_type_id, $campaign_sub_type)
+> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType marketingCampaignsTypesIdSubTypesSubTypeIdPut($id, $sub_type_id, $campaign_sub_type)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignSubTypesApi();
 $id = 56; // int | 
 $sub_type_id = 56; // int | 
-$campaign_sub_type = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType | 
+$campaign_sub_type = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType | 
 
 try {
     $result = $api_instance->marketingCampaignsTypesIdSubTypesSubTypeIdPut($id, $sub_type_id, $campaign_sub_type);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **sub_type_id** | **int**|  |
- **campaign_sub_type** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType.md)|  |
+ **campaign_sub_type** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubType**](../Model/CampaignSubType.md)
 
 ### Authorization
 

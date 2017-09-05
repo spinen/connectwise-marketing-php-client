@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **emails_unsent** | **int** |  | [optional] 
 **documents_created** | **int** |  | [optional] 
 **email_subject** | **string** |  | [optional] 
-**group** | [**\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference**](GroupReference.md) |  | [optional] 
+**group** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference**](GroupReference.md) |  | [optional] 
 **campaign_id** | **int** |  | [optional] 
 **created_by** | **string** |  | [optional] 
 **date_created** | **string** |  | [optional] 
