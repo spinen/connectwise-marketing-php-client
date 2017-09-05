@@ -185,7 +185,7 @@ class GroupCompaniesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -204,7 +204,7 @@ class GroupCompaniesApi
      * @param int $id  (required)
      * @param int $company_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
      */
     public function marketingGroupsIdCompaniesCompanyIdGet($id, $company_id)
     {
@@ -222,7 +222,7 @@ class GroupCompaniesApi
      * @param int $id  (required)
      * @param int $company_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingGroupsIdCompaniesCompanyIdGetWithHttpInfo($id, $company_id)
     {
@@ -284,19 +284,19 @@ class GroupCompaniesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
                 '/marketing/groups/{id}/companies/{companyId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -314,9 +314,9 @@ class GroupCompaniesApi
      *
      * @param int $id  (required)
      * @param int $company_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
      */
     public function marketingGroupsIdCompaniesCompanyIdPatch($id, $company_id, $operations)
     {
@@ -333,9 +333,9 @@ class GroupCompaniesApi
      *
      * @param int $id  (required)
      * @param int $company_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingGroupsIdCompaniesCompanyIdPatchWithHttpInfo($id, $company_id, $operations)
     {
@@ -406,19 +406,19 @@ class GroupCompaniesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
                 '/marketing/groups/{id}/companies/{companyId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -436,9 +436,9 @@ class GroupCompaniesApi
      *
      * @param int $id  (required)
      * @param int $company_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
      */
     public function marketingGroupsIdCompaniesCompanyIdPut($id, $company_id, $marketing_company)
     {
@@ -455,9 +455,9 @@ class GroupCompaniesApi
      *
      * @param int $id  (required)
      * @param int $company_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingGroupsIdCompaniesCompanyIdPutWithHttpInfo($id, $company_id, $marketing_company)
     {
@@ -528,19 +528,19 @@ class GroupCompaniesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
                 '/marketing/groups/{id}/companies/{companyId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -559,7 +559,7 @@ class GroupCompaniesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\Count
      */
     public function marketingGroupsIdCompaniesCountGet($id, $conditions = null)
     {
@@ -577,7 +577,7 @@ class GroupCompaniesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingGroupsIdCompaniesCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -631,19 +631,19 @@ class GroupCompaniesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\Count',
                 '/marketing/groups/{id}/companies/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -667,7 +667,7 @@ class GroupCompaniesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]
      */
     public function marketingGroupsIdCompaniesGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -690,7 +690,7 @@ class GroupCompaniesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[], HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingGroupsIdCompaniesGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -764,19 +764,19 @@ class GroupCompaniesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]',
                 '/marketing/groups/{id}/companies'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -793,9 +793,9 @@ class GroupCompaniesApi
      * Spinen&#39;s PHP ConnectWise Client for Marketing API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany
      */
     public function marketingGroupsIdCompaniesPost($id, $marketing_company)
     {
@@ -811,9 +811,9 @@ class GroupCompaniesApi
      * Spinen&#39;s PHP ConnectWise Client for Marketing API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany $marketing_company  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingGroupsIdCompaniesPostWithHttpInfo($id, $marketing_company)
     {
@@ -872,19 +872,19 @@ class GroupCompaniesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany',
                 '/marketing/groups/{id}/companies'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

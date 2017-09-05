@@ -185,7 +185,7 @@ class CampaignAuditsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -204,7 +204,7 @@ class CampaignAuditsApi
      * @param int $id  (required)
      * @param int $audit_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
      */
     public function marketingCampaignsIdAuditsAuditIdGet($id, $audit_id)
     {
@@ -222,7 +222,7 @@ class CampaignAuditsApi
      * @param int $id  (required)
      * @param int $audit_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdAuditsAuditIdGetWithHttpInfo($id, $audit_id)
     {
@@ -284,19 +284,19 @@ class CampaignAuditsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
                 '/marketing/campaigns/{id}/audits/{auditId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -314,9 +314,9 @@ class CampaignAuditsApi
      *
      * @param int $id  (required)
      * @param int $audit_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
      */
     public function marketingCampaignsIdAuditsAuditIdPatch($id, $audit_id, $operations)
     {
@@ -333,9 +333,9 @@ class CampaignAuditsApi
      *
      * @param int $id  (required)
      * @param int $audit_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdAuditsAuditIdPatchWithHttpInfo($id, $audit_id, $operations)
     {
@@ -406,19 +406,19 @@ class CampaignAuditsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
                 '/marketing/campaigns/{id}/audits/{auditId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -436,9 +436,9 @@ class CampaignAuditsApi
      *
      * @param int $id  (required)
      * @param int $audit_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
      */
     public function marketingCampaignsIdAuditsAuditIdPut($id, $audit_id, $campaign_audit)
     {
@@ -455,9 +455,9 @@ class CampaignAuditsApi
      *
      * @param int $id  (required)
      * @param int $audit_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdAuditsAuditIdPutWithHttpInfo($id, $audit_id, $campaign_audit)
     {
@@ -528,19 +528,19 @@ class CampaignAuditsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
                 '/marketing/campaigns/{id}/audits/{auditId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -559,7 +559,7 @@ class CampaignAuditsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\Count
      */
     public function marketingCampaignsIdAuditsCountGet($id, $conditions = null)
     {
@@ -577,7 +577,7 @@ class CampaignAuditsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdAuditsCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -631,19 +631,19 @@ class CampaignAuditsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\Count',
                 '/marketing/campaigns/{id}/audits/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -667,7 +667,7 @@ class CampaignAuditsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]
      */
     public function marketingCampaignsIdAuditsGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -690,7 +690,7 @@ class CampaignAuditsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[], HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdAuditsGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -764,19 +764,19 @@ class CampaignAuditsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]',
                 '/marketing/campaigns/{id}/audits'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -793,9 +793,9 @@ class CampaignAuditsApi
      * Spinen&#39;s PHP ConnectWise Client for Marketing API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit
      */
     public function marketingCampaignsIdAuditsPost($id, $campaign_audit)
     {
@@ -811,9 +811,9 @@ class CampaignAuditsApi
      * Spinen&#39;s PHP ConnectWise Client for Marketing API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit $campaign_audit  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdAuditsPostWithHttpInfo($id, $campaign_audit)
     {
@@ -872,19 +872,19 @@ class CampaignAuditsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit',
                 '/marketing/campaigns/{id}/audits'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignAudit', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

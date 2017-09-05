@@ -97,7 +97,7 @@ class CampaignEmailsOpenedApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\Count
      */
     public function marketingCampaignsIdEmailsOpenedCountGet($id, $conditions = null)
     {
@@ -115,7 +115,7 @@ class CampaignEmailsOpenedApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdEmailsOpenedCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -169,19 +169,19 @@ class CampaignEmailsOpenedApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\Count',
                 '/marketing/campaigns/{id}/emailsOpened/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -288,7 +288,7 @@ class CampaignEmailsOpenedApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -307,7 +307,7 @@ class CampaignEmailsOpenedApi
      * @param int $id  (required)
      * @param int $email_opened_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
      */
     public function marketingCampaignsIdEmailsOpenedEmailOpenedIdGet($id, $email_opened_id)
     {
@@ -325,7 +325,7 @@ class CampaignEmailsOpenedApi
      * @param int $id  (required)
      * @param int $email_opened_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdEmailsOpenedEmailOpenedIdGetWithHttpInfo($id, $email_opened_id)
     {
@@ -387,19 +387,19 @@ class CampaignEmailsOpenedApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
                 '/marketing/campaigns/{id}/emailsOpened/{emailOpenedId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -417,9 +417,9 @@ class CampaignEmailsOpenedApi
      *
      * @param int $id  (required)
      * @param int $email_opened_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
      */
     public function marketingCampaignsIdEmailsOpenedEmailOpenedIdPatch($id, $email_opened_id, $operations)
     {
@@ -436,9 +436,9 @@ class CampaignEmailsOpenedApi
      *
      * @param int $id  (required)
      * @param int $email_opened_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdEmailsOpenedEmailOpenedIdPatchWithHttpInfo($id, $email_opened_id, $operations)
     {
@@ -509,19 +509,19 @@ class CampaignEmailsOpenedApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
                 '/marketing/campaigns/{id}/emailsOpened/{emailOpenedId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -539,9 +539,9 @@ class CampaignEmailsOpenedApi
      *
      * @param int $id  (required)
      * @param int $email_opened_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
      */
     public function marketingCampaignsIdEmailsOpenedEmailOpenedIdPut($id, $email_opened_id, $email_opened)
     {
@@ -558,9 +558,9 @@ class CampaignEmailsOpenedApi
      *
      * @param int $id  (required)
      * @param int $email_opened_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdEmailsOpenedEmailOpenedIdPutWithHttpInfo($id, $email_opened_id, $email_opened)
     {
@@ -631,19 +631,19 @@ class CampaignEmailsOpenedApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
                 '/marketing/campaigns/{id}/emailsOpened/{emailOpenedId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -667,7 +667,7 @@ class CampaignEmailsOpenedApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]
      */
     public function marketingCampaignsIdEmailsOpenedGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -690,7 +690,7 @@ class CampaignEmailsOpenedApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[], HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdEmailsOpenedGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -764,19 +764,19 @@ class CampaignEmailsOpenedApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]',
                 '/marketing/campaigns/{id}/emailsOpened'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -793,9 +793,9 @@ class CampaignEmailsOpenedApi
      * Spinen&#39;s PHP ConnectWise Client for Marketing API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened
      */
     public function marketingCampaignsIdEmailsOpenedPost($id, $email_opened)
     {
@@ -811,9 +811,9 @@ class CampaignEmailsOpenedApi
      * Spinen&#39;s PHP ConnectWise Client for Marketing API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened $email_opened  (required)
      * @throws \Spinen\ConnectWise\Clients\Marketing\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened, HTTP status code, HTTP response headers (array of strings)
      */
     public function marketingCampaignsIdEmailsOpenedPostWithHttpInfo($id, $email_opened)
     {
@@ -872,19 +872,19 @@ class CampaignEmailsOpenedApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
+                '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened',
                 '/marketing/campaigns/{id}/emailsOpened'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\EmailOpened', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Marketing\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

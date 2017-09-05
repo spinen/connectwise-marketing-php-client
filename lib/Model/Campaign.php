@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model;
+namespace Spinen\ConnectWise\Clients\Marketing\Model;
 
 use \ArrayAccess;
 
@@ -57,17 +57,17 @@ class Campaign implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignTypeReference',
-        'sub_type' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubTypeReference',
-        'status' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatusReference',
+        'type' => '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignTypeReference',
+        'sub_type' => '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubTypeReference',
+        'status' => '\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatusReference',
         'start_date' => '\DateTime',
         'end_date' => '\DateTime',
         'location_id' => 'int',
-        'member' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MemberReference',
+        'member' => '\Spinen\ConnectWise\Clients\Marketing\Model\MemberReference',
         'inactive' => 'bool',
         'inactive_days_after_end' => 'int',
         'notes' => 'string',
-        'default_group' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference',
+        'default_group' => '\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference',
         'marketing_manager_default_track_id' => 'int',
         'opportunity_default_track_id' => 'int',
         'impressions' => 'int',
@@ -80,7 +80,7 @@ class Campaign implements ArrayAccess
         'actual_gross_margin' => 'double',
         'actual_roi' => 'double',
         'emails_sent' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Marketing\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -350,7 +350,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignTypeReference
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignTypeReference
      */
     public function getType()
     {
@@ -359,7 +359,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\CampaignTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -371,7 +371,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Gets sub_type
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubTypeReference
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubTypeReference
      */
     public function getSubType()
     {
@@ -380,7 +380,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Sets sub_type
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubTypeReference $sub_type
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\CampaignSubTypeReference $sub_type
      * @return $this
      */
     public function setSubType($sub_type)
@@ -392,7 +392,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatusReference
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatusReference
      */
     public function getStatus()
     {
@@ -401,7 +401,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -476,7 +476,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\MemberReference
      */
     public function getMember()
     {
@@ -485,7 +485,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -560,7 +560,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Gets default_group
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\GroupReference
      */
     public function getDefaultGroup()
     {
@@ -569,7 +569,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Sets default_group
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference $default_group
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\GroupReference $default_group
      * @return $this
      */
     public function setDefaultGroup($default_group)
@@ -833,7 +833,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\Metadata
      */
     public function getInfo()
     {
@@ -842,7 +842,7 @@ class Campaign implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

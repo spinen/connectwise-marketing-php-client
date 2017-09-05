@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **marketingCampaignsIdFormsSubmittedCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsIdFormsSubmittedCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsIdFormsSubmittedCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdFormsSubmittedFormSubmittedIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedFormSubmittedIdGet($id, $form_submitted_id)
+> \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedFormSubmittedIdGet($id, $form_submitted_id)
 
 
 
@@ -153,7 +153,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
 
 ### Authorization
 
@@ -167,7 +167,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdFormsSubmittedFormSubmittedIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedFormSubmittedIdPatch($id, $form_submitted_id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedFormSubmittedIdPatch($id, $form_submitted_id, $operations)
 
 
 
@@ -185,7 +185,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignFormsSubmittedApi();
 $id = 56; // int | 
 $form_submitted_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingCampaignsIdFormsSubmittedFormSubmittedIdPatch($id, $form_submitted_id, $operations);
@@ -202,11 +202,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **form_submitted_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdFormsSubmittedFormSubmittedIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedFormSubmittedIdPut($id, $form_submitted_id, $form_submitted)
+> \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedFormSubmittedIdPut($id, $form_submitted_id, $form_submitted)
 
 
 
@@ -238,7 +238,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignFormsSubmittedApi();
 $id = 56; // int | 
 $form_submitted_id = 56; // int | 
-$form_submitted = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted | 
+$form_submitted = new \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted(); // \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted | 
 
 try {
     $result = $api_instance->marketingCampaignsIdFormsSubmittedFormSubmittedIdPut($id, $form_submitted_id, $form_submitted);
@@ -255,11 +255,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **form_submitted_id** | **int**|  |
- **form_submitted** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted.md)|  |
+ **form_submitted** | [**\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdFormsSubmittedGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted[] marketingCampaignsIdFormsSubmittedGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted[] marketingCampaignsIdFormsSubmittedGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted[]**](../Model/FormSubmitted.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted[]**](../Model/FormSubmitted.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsIdFormsSubmittedPost**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedPost($id, $form_submitted)
+> \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted marketingCampaignsIdFormsSubmittedPost($id, $form_submitted)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignFormsSubmittedApi();
 $id = 56; // int | 
-$form_submitted = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted | 
+$form_submitted = new \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted(); // \Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted | 
 
 try {
     $result = $api_instance->marketingCampaignsIdFormsSubmittedPost($id, $form_submitted);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **form_submitted** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted.md)|  |
+ **form_submitted** | [**\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\FormSubmitted**](../Model/FormSubmitted.md)
 
 ### Authorization
 

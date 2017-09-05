@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdCompaniesCompanyIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesCompanyIdGet($id, $company_id)
+> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesCompanyIdGet($id, $company_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdCompaniesCompanyIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesCompanyIdPatch($id, $company_id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesCompanyIdPatch($id, $company_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupCompaniesApi();
 $id = 56; // int | 
 $company_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingGroupsIdCompaniesCompanyIdPatch($id, $company_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **company_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdCompaniesCompanyIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesCompanyIdPut($id, $company_id, $marketing_company)
+> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesCompanyIdPut($id, $company_id, $marketing_company)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupCompaniesApi();
 $id = 56; // int | 
 $company_id = 56; // int | 
-$marketing_company = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany | 
+$marketing_company = new \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany(); // \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany | 
 
 try {
     $result = $api_instance->marketingGroupsIdCompaniesCompanyIdPut($id, $company_id, $marketing_company);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **company_id** | **int**|  |
- **marketing_company** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany.md)|  |
+ **marketing_company** | [**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdCompaniesCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingGroupsIdCompaniesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingGroupsIdCompaniesCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdCompaniesGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[] marketingGroupsIdCompaniesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[] marketingGroupsIdCompaniesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]**](../Model/MarketingCompany.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany[]**](../Model/MarketingCompany.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingGroupsIdCompaniesPost**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesPost($id, $marketing_company)
+> \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany marketingGroupsIdCompaniesPost($id, $marketing_company)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\GroupCompaniesApi();
 $id = 56; // int | 
-$marketing_company = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany | 
+$marketing_company = new \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany(); // \Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany | 
 
 try {
     $result = $api_instance->marketingGroupsIdCompaniesPost($id, $marketing_company);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **marketing_company** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany.md)|  |
+ **marketing_company** | [**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\MarketingCompany**](../Model/MarketingCompany.md)
 
 ### Authorization
 

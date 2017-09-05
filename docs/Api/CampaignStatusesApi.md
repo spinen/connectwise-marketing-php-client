@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **marketingCampaignsStatusesCountGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsStatusesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Marketing\Model\Count marketingCampaignsStatusesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsStatusesGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus[] marketingCampaignsStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus[] marketingCampaignsStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus[]**](../Model/CampaignStatus.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus[]**](../Model/CampaignStatus.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsStatusesIdGet**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesIdGet($id)
+> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsStatusesIdPatch**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignStatusesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->marketingCampaignsStatusesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Marketing\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsStatusesIdPut**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesIdPut($id, $campaign_status)
+> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesIdPut($id, $campaign_status)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignStatusesApi();
 $id = 56; // int | 
-$campaign_status = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus | 
+$campaign_status = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus | 
 
 try {
     $result = $api_instance->marketingCampaignsStatusesIdPut($id, $campaign_status);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **campaign_status** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus.md)|  |
+ **campaign_status** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **marketingCampaignsStatusesPost**
-> \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesPost($campaign_status)
+> \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus marketingCampaignsStatusesPost($campaign_status)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->s
 Spinen\ConnectWise\Clients\Marketing\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Marketing\Api\CampaignStatusesApi();
-$campaign_status = new \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus(); // \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus | 
+$campaign_status = new \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus(); // \Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus | 
 
 try {
     $result = $api_instance->marketingCampaignsStatusesPost($campaign_status);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_status** | [**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus.md)|  |
+ **campaign_status** | [**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
+[**\Spinen\ConnectWise\Clients\Marketing\Model\CampaignStatus**](../Model/CampaignStatus.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model;
+namespace Spinen\ConnectWise\Clients\Marketing\Model;
 
 use \ArrayAccess;
 
@@ -60,7 +60,7 @@ class CampaignAudit implements ArrayAccess
         'emails_unsent' => 'int',
         'documents_created' => 'int',
         'email_subject' => 'string',
-        'group' => '\Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference',
+        'group' => '\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference',
         'campaign_id' => 'int',
         'created_by' => 'string',
         'date_created' => 'string'
@@ -376,7 +376,7 @@ class CampaignAudit implements ArrayAccess
 
     /**
      * Gets group
-     * @return \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference
+     * @return \Spinen\ConnectWise\Clients\Marketing\Model\GroupReference
      */
     public function getGroup()
     {
@@ -385,7 +385,7 @@ class CampaignAudit implements ArrayAccess
 
     /**
      * Sets group
-     * @param \Spinen\ConnectWise\Clients\Marketing\Spinen\ConnectWise\Clients\Marketing\Model\GroupReference $group
+     * @param \Spinen\ConnectWise\Clients\Marketing\Model\GroupReference $group
      * @return $this
      */
     public function setGroup($group)
